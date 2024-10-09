@@ -1,13 +1,13 @@
 from os import environ 
 
 class Config:
-    API_ID = environ.get("API_ID", "577678")
-    API_HASH = environ.get("API_HASH", "d2c6e01uuiuiouioiuiou0fc6d7a1be")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "70955...") 
+    API_ID = environ.get("API_ID", "28776072")
+    API_HASH = environ.get("API_HASH", "b3a786dce1f4e7d56674b7cadfde3c9d")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "7027179649:AAGQsC2wmVRum9Xa0d7pXSvcHBuB4HpO_TE") 
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
-    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://chhjgjkkjhkjhkjh@cluster0.xowzpr4.mongodb.net/")
+    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://ftmserver:ftm@cluster0.fneio.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "forward-bot")
-    BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '6964148334').split()]
+    BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '7711039923').split()]
 
 class temp(object): 
     lock = {}
