@@ -55,7 +55,7 @@ async def pub_(bot, message):
        return await stop(client, user)
     temp.forwardings += 1
     await db.add_frwd(user)
-    await send(client, user, "<b>ғᴏʀᴡᴀʀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ <a href=https://t.me/dev_gagan>Dev Gagan</a></b>")
+    await send(client, user, "<b>𝙵𝙾𝚁𝚆𝙰𝚁𝙳𝙸𝙽𝙶 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 𝙱𝚈 <a href=https://t.me/ftmdeveloper>𝙵𝚃𝙼 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁</a></b>")
     sts.add(time=True)
     sleep = 1 if _bot['is_bot'] else 10
     await msg_edit(m, "<code>Processing...</code>") 
@@ -109,7 +109,7 @@ async def pub_(bot, message):
             temp.IS_FRWD_CHAT.remove(sts.TO)
             return await stop(client, user)
         temp.IS_FRWD_CHAT.remove(sts.TO)
-        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ 🥀 <a href=https://t.me/dev_gagan>SUPPORT</a>🥀</b>")
+        await send(client, user, "<b>🎉 𝙵𝙾𝚁𝚆𝙰𝚁𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 𝙱𝚈 🥀 <a href=https://t.me/ftmdeveloper>𝙵𝚃𝙼 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁</a>🥀</b>")
         await edit(m, 'Completed', "completed", sts) 
         await stop(client, user)
             
@@ -197,8 +197,8 @@ async def edit(msg, title, status, sts):
    text = TEXT.format(i.fetched, i.total_files, i.duplicate, i.deleted, i.skip, status, percentage, estimated_total_time, progress)
    if status in ["cancelled", "completed"]:
       button.append(
-         [InlineKeyboardButton('Support', url='https://t.me/dev_gagan'),
-         InlineKeyboardButton('Updates', url='https://t.me/dev_gagan')]
+         [InlineKeyboardButton('Support', url='https://t.me/ftmbotzsupportz'),
+         InlineKeyboardButton('Updates', url='https://t.me/ftmbotz')]
          )
    else:
       button.append([InlineKeyboardButton('• ᴄᴀɴᴄᴇʟ', 'terminate_frwd')])
