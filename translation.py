@@ -39,10 +39,10 @@ class Translation(object):
   
   ABOUT_TXT = """<b>╭──────❰ 🤖 Bot Details ❱──────〄
 │ 
-│ 🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/devganbot>Dev Gagan Botᴛ</a>
-│ 👨‍💻 ᴅᴇᴠᴘʟᴏᴇʀ : <a href=https://t.me/dev_gagan>Team SPY</a>
-│ 🤖 ᴜᴘᴅᴀᴛᴇ  : <a href=https://t.me/dev_gagan>devgagan</a>
-│ 📡 ʜᴏsᴛ ᴏɴ : <a href=https://devgagan.in/>Dev Gagan Host</a>
+│ 🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/ftmautobot>𝙵𝚃𝙼 𝙵𝙾𝚁𝚆𝙰𝚁𝙳 𝙱𝙾𝚃</a>
+│ 👨‍💻 ᴅᴇᴠᴘʟᴏᴇʀ : <a href=https://t.me/ftmdeveloper>𝙵𝚃𝙼 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁</a>
+│ 🤖 ᴜᴘᴅᴀᴛᴇ  : <a href=https://t.me/ftmbotz>𝙵𝚃𝙼 𝙱𝙾𝚃𝚉</a>
+│ 📡 ʜᴏsᴛ ᴏɴ : <a href=https://heroku.com.in/>𝙷𝙴𝚁𝙾𝙺𝚄</a>
 │ 🗣️ ʟᴀɴɢᴜᴀɢᴇ  : ᴘʏᴛʜᴏɴ 3 
 {python_version}
 │ 📚 ʟɪʙʀᴀʀʏ  : ᴘʏʀᴏɢʀᴀᴍ  
