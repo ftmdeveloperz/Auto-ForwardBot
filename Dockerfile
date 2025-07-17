@@ -1,4 +1,6 @@
-FROM python:3.8-slim-buster
+FROM python:3.13-slim-buster
+
+RUN apt update && apt upgrade -y
 RUN apt install git -y
 COPY requirements.txt /requirements.txt
 
